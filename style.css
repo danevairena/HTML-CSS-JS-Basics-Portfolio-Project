@@ -4,7 +4,7 @@ body {
 }
 
 p, ul {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body{
@@ -36,6 +36,13 @@ body{
     position: fixed;
     top: 35%;
     right: 0;
+}
+
+.left-img-class {
+    width: 50%;
+    position: fixed;
+    top: 35%;
+    left: 0;
 }
 
 .bottom-space-class {
@@ -106,6 +113,14 @@ body{
     top: 45%;
     left: 30px;
     text-align: center;
+}
+
+#aboutText {
+    width: 50%;
+    position: fixed;
+    top: 35%;
+    right: 0;
+    text-align: left;
 }
 
 /*About*/

@@ -3,7 +3,14 @@ let clickCount = 0;
 function changeBackground() {
     if (clickCount%2 == 0) {
         document.body.style.backgroundColor = "rgb(126, 68, 96)";
-        document.getElementById("welcome").style.color = "white";
+        if (document.title === 'Portfolio')
+        {
+            document.getElementById("welcome").style.color = "white";
+        }
+        else if(document.title === 'About Me') {
+            document.getElementById("aboutText").style.color = "white";
+        }
+        
         /*cument.getElementById("aboutText").style.color = "white";
         document.getElementById("hobbiesText").style.color = "white";
         document.getElementById("contactText").style.color = "white";*/
@@ -11,7 +18,13 @@ function changeBackground() {
     }
     else {
         document.body.style.backgroundColor = "white";
-        document.getElementById("welcome").style.color = "black";
+        if (document.title === 'Portfolio')
+            {
+                document.getElementById("welcome").style.color = "black";
+            }
+            else if(document.title === 'About Me') {
+                document.getElementById("aboutText").style.color = "black";
+            }
         /*cument.getElementById("aboutText").style.color = "black";
         document.getElementById("hobbiesText").style.color = "black";
         document.getElementById("contactText").style.color = "black";*/
