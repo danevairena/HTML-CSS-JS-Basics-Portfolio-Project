@@ -3,18 +3,6 @@ body {
     background-color: white;
 }
 
-h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border-bottom: solid pink;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: rgb(252, 238, 240);
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-}
-
 p, ul {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -24,6 +12,8 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
+
+/*Classes*/
 
 .my-div-class {
     display: flex;
@@ -49,13 +39,25 @@ body{
     margin-bottom: 50px;
 }
 
-.pink-underline {
+.pink-underline-class {
     border-bottom: solid pink;
     border-left: solid pink;
     padding-left: 20px;
     background-color: rgb(252, 238, 240);
     border-top-right-radius: 15px;
     align-content: center;
+}
+
+.pink-border-class {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: solid pink;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(252, 238, 240);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
 .button-style-class {
@@ -93,6 +95,15 @@ body{
     justify-content: space-between;
 }
 
+/*Page Section*/
+
+#pageSection {
+    position: fixed;
+    left: 0;
+    top: 40px;
+    width: 100%;
+    align-items: center;
+}
 
 /*About*/
 
