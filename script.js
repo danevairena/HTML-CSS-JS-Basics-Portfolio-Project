@@ -10,6 +10,9 @@ function changeBackground() {
         else if(document.title === 'About Me') {
             document.getElementById("aboutText").style.color = "white";
         }
+        else if(document.title === 'Education') {
+            document.getElementById("educationPage").style.color = "white";
+        }
         
         /*cument.getElementById("aboutText").style.color = "white";
         document.getElementById("hobbiesText").style.color = "white";
@@ -24,6 +27,9 @@ function changeBackground() {
             }
             else if(document.title === 'About Me') {
                 document.getElementById("aboutText").style.color = "black";
+            }
+            else if(document.title === 'Education') {
+                document.getElementById("educationPage").style.color = "black";
             }
         /*cument.getElementById("aboutText").style.color = "black";
         document.getElementById("hobbiesText").style.color = "black";
