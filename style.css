@@ -3,7 +3,7 @@ body {
     background-color: white;
 }
 
-p, ul {
+ul {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -47,27 +47,6 @@ body{
 
 .bottom-space-class {
     margin-bottom: 50px;
-}
-
-.pink-underline-class {
-    border-bottom: solid pink;
-    border-left: solid pink;
-    padding-left: 20px;
-    background-color: rgb(252, 238, 240);
-    border-top-right-radius: 15px;
-    align-content: center;
-}
-
-.pink-border-class {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border-bottom: solid pink;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: rgb(252, 238, 240);
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
 }
 
 .button-style-class {
@@ -122,16 +101,6 @@ body{
     text-align: center;
 }
 
-#aboutText {
-    width: 50%;
-    position: fixed;
-    top: 35%;
-    right: 0;
-    text-align: left;
-}
-
-/*About*/
-
 #irenaPic {
     width: 250px;
     height: 250px;
@@ -139,6 +108,15 @@ body{
     border: 5px solid pink;
 }
 
+/*About*/
+
+#aboutText {
+    width: 50%;
+    position: fixed;
+    top: 35%;
+    right: 0;
+    text-align: left;
+}
 
 #travelPic {
     width: 250px;
@@ -168,6 +146,18 @@ body{
 
 /*Contacts*/
 
+#contactPage {
+    position: fixed;
+    top: 25%;
+    width: 100%;
+    align-items: center;
+}
+
+#contact {
+    margin-left: 10vmax;
+    padding: 5vmax;
+}
+
 #contactPic {
     width: 250px;
     height: 150px;
@@ -175,7 +165,7 @@ body{
     border: 5px solid black;
 }
 
-/*Question form
+/*Question form*/
 
 #questionForm {
     border: solid pink;
@@ -183,11 +173,12 @@ body{
     padding: 20px;
     padding-top: 10px;
     background-color: rgb(252, 238, 240);
+    margin-right: 10vmax;
 }
 
 #formTitle {
     border-bottom: solid pink;
-}*/
+}
 
 /*Footer*/
 
