@@ -31,8 +31,11 @@ body{
     align-content: space-between;
 }
 
-.left-column-class {
-    padding-right: 50px;
+.right-img-class {
+    width: 50%;
+    position: fixed;
+    top: 35%;
+    right: 0;
 }
 
 .bottom-space-class {
@@ -97,12 +100,12 @@ body{
 
 /*Page Section*/
 
-#pageSection {
+#welcome {
+    width: 50%;
     position: fixed;
-    left: 0;
-    top: 40px;
-    width: 100%;
-    align-items: center;
+    top: 45%;
+    left: 30px;
+    text-align: center;
 }
 
 /*About*/
