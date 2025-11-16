@@ -47,16 +47,6 @@ Download or clone the repository, then open index.html in any browser.
 
 ---
 
-## 📁 Folder Structure
-```
-/screenshots
-/css
-/js
-/images
-index.html
-```
----
-
 ## 📌 Notes
 This project demonstrates the fundamentals of web development  
 before moving on to advanced frameworks like React.
