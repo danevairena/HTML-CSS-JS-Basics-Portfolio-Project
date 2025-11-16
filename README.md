@@ -25,7 +25,7 @@ without using external libraries or frameworks.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### 🏠 Home
 <img src="https://github.com/danevairena/HTML-CSS-JS-Basics-Portfolio-Project/blob/main/screenshots/home.png" />
@@ -43,9 +43,7 @@ without using external libraries or frameworks.
 
 ## 🚀 How to Run Locally
 
-Download or clone the repository, then open:
-
-index.html in any browser.
+Download or clone the repository, then open index.html in any browser.
 
 ---
 
