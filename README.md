@@ -48,13 +48,13 @@ Download or clone the repository, then open index.html in any browser.
 ---
 
 ## 📁 Folder Structure
-
+```
 /screenshots
 /css
 /js
 /images
 index.html
-
+```
 ---
 
 ## 📌 Notes
